@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'anisette-std', sans-serif;
+}
+
+.baseContent a {
+  color: #01B2AA !important;
+  transform: all 0.2s ease-in-out;
+}
+.baseContent a:hover {
+  color: #FD8234 !important;
+}
