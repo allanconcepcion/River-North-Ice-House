@@ -27,6 +27,7 @@ module.exports = withFaust({
       {
         protocol: "https",
         hostname: getWpHostname(),
+        pathname: '/wp-content/uploads/**',
       },
       {
         protocol: "http",
