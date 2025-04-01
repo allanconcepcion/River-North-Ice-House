@@ -172,7 +172,7 @@ const Footer = ({
         ©{new Date().getFullYear()} River North Icehouse. All rights reserved.
       </p>
       <p className={`hidden sm:block`}>|</p>
-      <p>Website by <a className={`hover:text-orange transition duration-300 ease-in-out`} href="https://noisytrumpet.com" target="_blank">Noisy Trumpet Communications</a></p>
+      <p>Website by <a className={`hover:text-orange transition duration-300 ease-in-out`} href="https://concepcion.work" target="_blank">Concepcion Work</a></p>
     </div>
     </div>
   );
