@@ -53,7 +53,7 @@ const Hero = ({
     <section className={`${className ?? ``} ${wrapperClass}`}>
       <div className={innerWrapperClass}>
         <div className={innerItemClass}>
-          {title && <h1 className={`${isPrimary ? `font-sans` : `font-heading`} text-xl sm:text-2xl text-black uppercase`}>{title}</h1>}
+          {title && <h1 className={`${isPrimary ? `font-sans` : `font-heading`} text-center text-xl sm:text-2xl text-black uppercase`}>{title}</h1>}
           {stylishTitle && <h2 className={`whitespace-pre-line text-center font-heading leading-none text-[11vw] sm:max-[1500px]:text-[5.3vw] min-[1500px]:text-[5rem] text-balance text-teal font-bold uppercase`}>{isMobile ? mobileStylishTitle : stylishTitle}</h2>}
           {content && <Content className={`font-sans text-lg`} content={content} />}
           {ctas && (

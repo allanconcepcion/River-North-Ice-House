@@ -100,7 +100,7 @@ const Gallery = ({
         {(preTitle || title) && (
             <div className={`relative z-[2] max-w-[1300px] w-full mx-auto flex flex-col p-4 -mb-10`}>
                 {preTitle && <h3 className={`font-sans text-xl sm:text-2xl text-black md:text-center uppercase mb-4`}>{preTitle}</h3>}
-                {title && <h2 className={`font-heading text-2xl sm:text-5xl font-bold text-black md:text-center uppercase`}>{title}</h2>}
+                {title && <h2 className={`font-heading text-xl sm:text-3xl md:text-5xl font-bold text-black text-center uppercase`}>{title}</h2>}
             </div>
         )}
         <div className={`relative flex flex-col bg-${bgColor}`}>

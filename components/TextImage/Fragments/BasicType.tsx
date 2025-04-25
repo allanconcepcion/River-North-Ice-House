@@ -86,7 +86,7 @@ const BasicType = ({
       <div className={`max-w-[1300px] mx-auto flex ${imageSide ? `flex-col md:flex-row` : `flex-col-reverse md:flex-row-reverse`} justify-center items-center gap-4 md:gap-8 lg:px-20`}>
         <div className={`${contentClasses} p-4 text-black`}>
             {preTitle && <h4 className={`font-sans font-medium text-xl mb-4`}>{preTitle}</h4>}
-            {title && <h2 className={`font-heading text-2xl ${makeTitleExtraLarge ? `md:text-5xl` : `md:text-3xl`} font-semibold`}>{title}</h2>}
+            {title && <h2 className={`font-heading text-xl sm:text-2xl ${makeTitleExtraLarge ? `md:text-5xl` : `md:text-3xl`} font-semibold`}>{title}</h2>}
             {subtitle && <h3 className={`font-sans text-lg font-medium`}>{subtitle}</h3>}
             {addLineSeparator && <hr className={`border-t-[1px] border-orange w-full mt-6`} />}
             {isContent ? (
