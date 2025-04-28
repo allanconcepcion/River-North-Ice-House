@@ -144,7 +144,7 @@ const GalleryType = ({
         )}
       </div>
       <div className={`absolute ${isRight ? `left-0 justify-start` : `right-0 justify-end`} w-full h-full flex items-center`}>
-            <div className={`relative bg-tan w-[90%] md:w-[60%] grid aspect-video overflow-hidden max-md:translate-y-[25%]`}>
+            <div className={`relative bg-tan w-full md:w-[60%] grid aspect-video overflow-hidden max-md:translate-y-[25%]`}>
                 <Image
                     className={``}
                     {...graphicBgProps}

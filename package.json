@@ -4,14 +4,15 @@
   "private": false,
   "scripts": {
     "dev": "faust dev",
-    "build": "faust build",
+    "build": "faust build && npm run sitemap",
     "lint": "faust lint",
     "generate": "faust generatePossibleTypes && npm run codegen",
     "clean": "rimraf .next node_modules",
     "start": "faust start",
     "codegen": "graphql-codegen --config graphql.config.yaml --errors-only",
     "format": "prettier --write './**/*.{js,jsx,md,mdx,css,scss,ts,tsx}' '!.next/**' '!out/**' '!possibleTypes.json' '!public/~partytown/**'",
-    "format:check": "prettier --check './**/*.{js,jsx,md,mdx,css,scss,ts,tsx}'"
+    "format:check": "prettier --check './**/*.{js,jsx,md,mdx,css,scss,ts,tsx}'",
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "@apollo/client": "^3.7.11",
