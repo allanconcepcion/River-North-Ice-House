@@ -80,17 +80,17 @@ const GalleryType = ({
             {isMobile && (
                 <div className={`w-full flex flex-row justify-center items-start gap-4`}>
                 {secondImage ? (
-                    <div className={`w-[65%] h-[250px]`}>
+                    <div className={`w-[65%]`}>
                         <Image
-                            className={`w-full h-full object-cover`}
+                            className={``}
                             {...secImageProps}
                         />
                     </div>
                 ) : null}
                 {verticalImage ? (
-                    <div className={`w-[35%] h-[250px]`}>
+                    <div className={`w-[35%]`}>
                         <Image
-                            className={`w-full h-full object-cover`}
+                            className={``}
                             {...vertImageProps}
                         />
                     </div>
