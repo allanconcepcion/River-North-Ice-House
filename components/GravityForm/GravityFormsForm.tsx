@@ -139,13 +139,20 @@ const GravityFormsForm = ({ form, formId }: Props) => {
           {error ? (
             <div className="error-message text-primary">{error.message}</div>
           ) : null}
-          <Button
+          {/* <Button
             type="org-circled"
             disabled={loading}
             className={`mx-auto max-w-fit`}
           >
             {submitButton?.text ?? "Submit"}
-          </Button>
+          </Button> */}
+          <a
+            href="https://www.jotform.com/form/251426597713059"
+            type="org-circled"
+            className={`mx-auto max-w-fit`}
+          >
+            {submitButton?.text ?? "Submit"}
+          </a>
         </div>
       </form>
     </>
