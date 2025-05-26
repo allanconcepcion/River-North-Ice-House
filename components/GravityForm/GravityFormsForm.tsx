@@ -149,7 +149,7 @@ const GravityFormsForm = ({ form, formId }: Props) => {
           <a
             href="https://www.jotform.com/form/251426597713059"
             type="org-circled"
-            className={`rounded-[50%] border-[1px] border-orange py-2 px-6 font-semibold text-orange font-heading text-lg uppercase hover:border-teal hover:text-teal transition duration-300 ease-in-out hidden md:flex ml-4 min-[830px]:ml-8`}
+            className={`rounded-[50%] border-[1px] border-orange py-2 px-6 font-semibold text-orange font-heading text-lg uppercase hover:border-teal hover:text-teal transition duration-300 ease-in-out md:flex ml-4 min-[830px]:ml-8`}
           >
             {submitButton?.text ?? "Get in Touch"}
           </a>
