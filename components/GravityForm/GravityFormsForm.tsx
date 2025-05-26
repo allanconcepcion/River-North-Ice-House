@@ -123,7 +123,7 @@ const GravityFormsForm = ({ form, formId }: Props) => {
         onSubmit={handleSubmit}
         autoComplete="on"
       >
-        <div className={`mx-auto flex max-w-xl flex-col gap-4`}>
+        <div className={`mx-auto flex max-w-xl flex-col gap-4 items-center justify-center`}>
           {fields
             ? fields.map((field, index) => {
                 return (
@@ -149,9 +149,9 @@ const GravityFormsForm = ({ form, formId }: Props) => {
           <a
             href="https://www.jotform.com/form/251426597713059"
             type="org-circled"
-            className={`mx-auto max-w-fit`}
+            className={`rounded-[50%] border-[1px] border-orange py-2 px-6 font-semibold text-orange font-heading text-lg uppercase hover:border-teal hover:text-teal transition duration-300 ease-in-out hidden md:flex ml-4 min-[830px]:ml-8`}
           >
-            {submitButton?.text ?? "Submit"}
+            {submitButton?.text ?? "Get in Touch"}
           </a>
         </div>
       </form>
